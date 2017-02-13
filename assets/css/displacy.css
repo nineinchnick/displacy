@@ -1,0 +1,38 @@
+.displacy-word {
+  font-size: 1.25rem;
+  /*color: #ffffff;*/ }
+
+.displacy-tag {
+  font: 1rem "Input Mono Compressed", Consolas, "Andale Mono", Menlo, Monaco, Courier, monospace;
+  color: #a6e22d; }
+
+.displacy-label {
+  font: 0.85rem "Input Mono Compressed", Consolas, "Andale Mono", Menlo, Monaco, Courier, monospace;
+  color: #87908a; }
+
+.displacy-arc {
+  color: #87908a; }
+
+.displacy-arrowhead {
+  /*color: #ffffff;*/ }
+
+[data-format="spacy"] .displacy-tag[data-tag^="NN"] {
+  color: #fd9720; }
+
+[data-format="spacy"] .displacy-tag[data-tag^="VB"] {
+  color: #e00084; }
+
+[data-format="spacy"] .displacy-tag[data-tag^="."] {
+  color: #87908a; }
+
+[data-format="spacy"] .displacy-tag[data-tag^=","] {
+  color: #87908a; }
+
+[data-format="google"] .displacy-tag[data-tag^="NOUN"] {
+  color: #fd9720; }
+
+[data-format="google"] .displacy-tag[data-tag^="VERB"] {
+  color: #e00084; }
+
+[data-format="google"] .displacy-tag[data-tag^="PUNCT"] {
+  color: #87908a; }
