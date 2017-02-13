@@ -5,8 +5,6 @@ It can be used to visualize POS relationships detected using [spaCy](https://spa
 
 ## Using displacy.py
 
-To use displaCy in your project, download [`displacy.js`](assets/js/displacy.js) from GitHub or via npm:
-
 ```python
 from displacy import Displacy
 import spacy
@@ -37,7 +35,7 @@ The following settings are available:
 | **arrowSpacing** | spacing between arrows in px to avoid overlaps | `20` |
 | **arrowWidth** | width of arrow head in px | `10` |
 | **arrowStroke** | width of arc in px | `2` |
-| **wordSpacing** | spacing between words and arcs in px | `50` |
+| **wordSpacing** | spacing between words and arcs in px | `75` |
 | **font** | font face for all text | `'inherit'` |
 | **color** | text color, HEX, RGB or color names | `'#000000'` |
 | **bg** | background color, HEX, RGB or color names | `'#ffffff'` |
